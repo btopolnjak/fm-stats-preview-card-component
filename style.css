@@ -132,7 +132,7 @@ aside {
 
   aside {
     flex-direction: row;
-    justify-content: space-between;
+    gap: 3.5rem;
   }
 }
 

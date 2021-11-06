@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Lexend+Deca:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Colors */
+/* Fonts */
+footer {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #aa5cdb;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #090b1a;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-width: 327px;
+  margin: 0 20%;
+  background-color: #1b1938;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+header {
+  background-color: #aa5cdb;
+}
+
+#img-desktop {
+  display: none;
+}
+
+#img-mobile {
+  display: block;
+}
+
+img {
+  width: 100%;
+  display: block;
+  opacity: 0.75;
+  mix-blend-mode: multiply;
+}
+
+section {
+  margin: 0 2.25rem;
+}
+
+strong {
+  color: #aa5cdb;
+}
+
+h1 {
+  margin: 2.5rem 0 1.25rem 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.75;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+@media (min-width: 1440px) {
+  #img-mobile {
+    display: none;
+  }
+
+  #img-desktop {
+    display: block;
+  }
+
+  main {
+    margin: 0 15%;
+    flex-direction: row-reverse;
+    text-align: left;
+    height: 402px;
+  }
+
+  section {
+    margin: 0 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  section h1 {
+    margin-top: 4rem;
+    font-size: 35px;
+  }
+  section p, section aside {
+    margin-right: 2rem;
+  }
+
+  header {
+    min-width: 490px;
+  }
+
+  aside {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

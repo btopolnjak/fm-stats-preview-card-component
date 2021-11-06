@@ -17,6 +17,7 @@ main {
     display: flex;
     flex-direction: column;
     min-width: 327px;
+    max-width: 550px;
     margin: 0 20%;
     background-color: base.$dark-desaturated-blue;
     border-radius: 10px;
@@ -91,6 +92,7 @@ aside {
         flex-direction: row-reverse;
         text-align: left;
         height: 402px;
+        max-width: 1080px;
     }
     section {
         margin: 0 4.5rem;
